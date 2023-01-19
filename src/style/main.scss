@@ -1,1 +1,14 @@
-@import 'src/style/pages/home';
+//utils style
+@import './utils/_variables';
+@import './utils/_keyframes';
+@import './utils/_responsive';
+
+// pages style
+@import './pages/_home';
+
+body {
+    margin: 0;
+    font-family: $main_font;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
